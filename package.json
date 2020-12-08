@@ -1,0 +1,23 @@
+{
+  "name": "linkedin-bot",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "stage": "NODE_ENV=stage forever start bin/index.js",
+    "start": "node bin/index.js",
+    "dev": "NODE_ENV=stage nodemon bin/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "moment": "^2.24.0",
+    "node-cron": "^2.0.3",
+    "word-wrap": "^1.2.3"
+  }
+}

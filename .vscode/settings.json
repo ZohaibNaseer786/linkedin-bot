@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/a470a932-2a66-4ed5-bf9f-e6f2d99968c0/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/linkedInBoat",
+    "appService.deploySubpath": "."
+}
